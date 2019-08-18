@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
+import NavComponent from './Components/NavComponent.js'
 
 function App() {
   return (
     <main className='App'>
-      {/*content goes here*/}
+      <NavComponent/>
     </main>
   );
 }
