@@ -26,7 +26,7 @@ class SignUpComponent extends React.Component {
             <SignUpModal 
             className="modal" show={this.state.isShowing}
             close={this.closeModalHandler}>
-            Hello this is sign up modal test</SignUpModal>
+           </SignUpModal>
             </div>
         );
     }
