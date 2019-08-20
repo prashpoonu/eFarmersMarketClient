@@ -15,7 +15,7 @@ const modal = (props) => {
 
                 <div className="modal-body">
                     <p>
-                        {props.children}
+                    Hello this is sign up modal test
                     </p>
                 </div>
                 <div className="modal-footer">
