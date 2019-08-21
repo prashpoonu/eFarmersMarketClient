@@ -26,7 +26,7 @@ class SignInComponent extends React.Component {
             <SignInModal 
             className="modal" show={this.state.isShowing}
             close={this.closeModalHandler}>
-            Hello this is login modal test</SignInModal>
+            </SignInModal>
             </div>
         );
     }

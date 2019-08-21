@@ -1,5 +1,6 @@
 import React from 'react';
 import '../Assets/Styles/Modal.css'
+import SigninForm from './FormSignin'
 const modal = (props) => {
     return (
         <div>
@@ -14,13 +15,9 @@ const modal = (props) => {
                 </div>
 
                 <div className="modal-body">
-                    <p>
-                        {props.children}
-                    </p>
+                    <SigninForm></SigninForm>
                 </div>
-                <div className="modal-footer">
-                    <button className="btn-login">Log in</button>
-                </div>
+                
             </div>
         </div>
     )
